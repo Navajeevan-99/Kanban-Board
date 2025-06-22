@@ -1,0 +1,19 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#dotoday{
+    margin-left: 20px;
+
+}
+#progress{
+    margin-left: 20px;
+
+}
+#done{
+    margin-left: 20px;
+
+}
