@@ -6,12 +6,17 @@ import Todo from './components/Todo'
 import Dotoday from './components/Dotoday'
 import Progress from './components/Progress'
 import Done from './components/Done'
+import Navbar from './components/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <div id="navbar">
+        <Navbar/>
+
+      </div>
       <div id="body">
       <div id="todo">
       <Todo/>

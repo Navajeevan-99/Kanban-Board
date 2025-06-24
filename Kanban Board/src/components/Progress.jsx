@@ -4,7 +4,10 @@ const Progress = () => {
   return (
     <div>
         <div id="progressoutborder">
-            <h3>Progress</h3>
+            <div id="progresstitle">
+            <h3 id="progress">Progress</h3>
+            <h4 id="progressratio">1/3</h4>
+            </div>
             <div id="progressinborder">
                 <div id="progresselement">
                     <p>Name : Navajeevan</p>

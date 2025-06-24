@@ -19,15 +19,28 @@
 }
 #doneelement{
     margin-top: 10px;
-    background-color: rgba(244, 10, 244, 0.2);
+    background-color: rgba(244, 10, 244, 0.1);
     width: 310px;
-    height: 100px;
+    height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: left;
-    color: #02e555;
+    color: #187538;
 }
 p{
     margin:5px;
+}
+#donetitle{
+    display: flex;
+    flex-direction: row;
+    color: #964734;
+
+}
+#done{
+    padding-right: 5px;
+}
+#doneratio{
+    color: rgba(0,0,0,0.6);
+
 }

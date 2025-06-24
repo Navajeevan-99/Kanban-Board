@@ -5,7 +5,11 @@ const Done = () => {
     <div>
 
         <div id="doneoutborder">
-            <h3>Done</h3>
+            
+            <div id="donetitle">
+            <h3 id="done">Done</h3>
+            <h4 id="doneratio">1/3</h4>
+            </div>
             <div id="doneinborder">
                 <div id="doneelement">
                     <p>Name : Navajeevan</p>

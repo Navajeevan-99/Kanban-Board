@@ -19,9 +19,9 @@
 }
 #todoelement{
     margin-top: 10px;
-    background-color: rgba(244, 10, 244, 0.2);
+    background-color: rgba(244, 10, 244, 0.1);
     width: 310px;
-    height: 100px;
+    height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -31,4 +31,16 @@
 .para{
     margin:5px;
     
+}
+#todotitle{
+    display: flex;
+    flex-direction: row;
+
+}
+#todo{
+    padding-right: 5px;
+}
+#todoratio{
+    color: rgba(0,0,0,0.6);
+
 }

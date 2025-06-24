@@ -4,7 +4,10 @@ const Dotoday = () => {
   return (
     <div>
         <div id="dotodayoutborder">
-            <h3>Do Today</h3>
+            <div id="dotodaytitle">
+            <h3 id="dotoday">Do Today</h3>
+            <h4 id="dotodayratio">1/3</h4>
+            </div>
             <div id="dotodayinborder">
                 <div id="dotodayelement">
                     <p>Name : Navajeevan</p>
