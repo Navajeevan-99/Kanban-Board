@@ -5,7 +5,7 @@ const Dotoday = () => {
         e.preventDefault();
         var data=e.dataTransfer.getData("text");
         var v=document.getElementById(data)
-        v.style.color="color: rgb(213, 164, 5)";
+        v.style.color="rgb(213, 164, 5)";
         e.target.appendChild(v);
     }
     const allowdrop=(e)=>{
