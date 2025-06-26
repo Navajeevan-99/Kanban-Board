@@ -1,4 +1,5 @@
 import React from 'react'
+import Table from './Table'
 import './Todo.css'
 const Todo = () => {
   return (
@@ -9,11 +10,7 @@ const Todo = () => {
             <h4 id="todoratio">1/3</h4>
             </div>
             <div id="todoinborder">
-                <div id="todoelement">
-                    <p className='para'>Name : Navajeevan</p>
-                    <p className='para'>Task : Front End to complete</p>
-                    <p className='para'>Due  : 27.06.25</p>
-                </div>
+                  <Table/>
             </div>
         </div>
 

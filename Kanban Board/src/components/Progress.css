@@ -1,5 +1,5 @@
 #progressoutborder{
-    background-color: rgba(10, 69, 244, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     border: 4px solid white;
     border-radius: 10px;
     height: 700px;
@@ -19,7 +19,7 @@
 }
 #progresselement{
     margin-top: 10px;
-    background-color: rgba(244, 10, 244, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 310px;
     height: auto;
     border-radius: 10px;
@@ -40,6 +40,6 @@ p{
     padding-right: 5px;
 }
 #progressratio{
-    color: rgba(0,0,0,0.6);
+    color: rgba(150,71,52,0.8);
 
 }
